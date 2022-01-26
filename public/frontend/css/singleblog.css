@@ -1,0 +1,98 @@
+
+/*SECTION2*/
+.section2{
+  width:100%;
+  background:white!important;
+
+  }
+  
+  .section2 table td{
+  padding:6rem;
+  vertical-align:top;
+  }
+  
+  @media screen and (max-width:700px){
+       .section2 table td{
+  padding:1.5rem;
+           
+       }
+  }
+  .section2 .section_left{
+  margin:10vh auto;
+  }
+  
+  .section2 .content-2 a{
+  color:tomato;
+  text-decoration:none;
+  }
+  
+  .section2 .content-2 a:before{
+  content:"";
+  font-family:"FontAwesome";
+  margin:0 5px;
+  }
+  
+  .section2 table td:nth-child(1){
+  width:25%;
+  }
+  
+  .section2 table td:nth-child(2){
+  width:70%;
+  }
+  
+  .section2 table td:nth-child(1) a{
+  margin:0 5px;
+  }
+  
+  .section2 table td:nth-child(1) .fa{
+  padding:3px;
+  border-radius:2px;
+  }
+  
+ /* .fa-facebook{
+  background:#325d96;
+  color:#fff;
+  padding: 10px;
+  font-size:30px!important;
+  }
+  
+ .fa-twitter{
+  background:#3399ff;
+  color:#fff;
+    padding: 10px;
+  
+  }
+  
+ .fa-instagram{
+  background:#d62977;
+  color:#fff;
+    padding: 10px;
+  }
+  
+.fa-linkedin{
+  background:#05709d;
+  color:#fff;
+    padding: 10px;
+  }
+  
+.fa-whatsapp{
+  background:#075e54;
+  color:#fff;
+  font-size: 30px;
+ 
+  } */
+  
+  .section2 table td:nth-child(2) img{
+  width:100%;
+ 
+  }
+  
+  .section2 table td:nth-child(2) h1{
+  font-size:3em;
+  }
+  
+  .section2 table td:nth-child(2) p{
+  line-height:1.4em;
+  letter-spacing:0.08em;
+  width:90%;
+  }
